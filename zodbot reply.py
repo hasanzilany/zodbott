@@ -1,5 +1,6 @@
 import discord
 from discord.ext.commands import Bot
+import os
 
 client = discord.Client()
 
@@ -48,4 +49,4 @@ async def on_ready():
     print(client.user.id)
     print('------')
 
-client.run('NTA1NzczODA5MDUyMTU1OTE3.DrYknw.820AigRbMO31U45FJXCjxmJekdw')
+client.run(os.getenv'NTA1NzczODA5MDUyMTU1OTE3.DrYknw.820AigRbMO31U45FJXCjxmJekdw'))
